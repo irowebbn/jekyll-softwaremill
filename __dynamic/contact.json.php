@@ -6,10 +6,10 @@ foreach(['name', 'email', 'message', 'url'] as $env) {
 
 // wp-content/themes/softwaremill/contact.json.php
 
-$to = 'hello@softwaremill.com';
+$to = 'pandapixky@gmail.com';
 $from = 'notifications@softwaremill.pl';
 
-$subject     = 'Contact from SoftwareMill website';
+$subject     = 'Contact from PandaPix website';
 $name        = trim(@$_POST['name']);
 $email       = trim(@$_POST['email']);
 $message     = trim(@$_POST['message']);
@@ -21,7 +21,7 @@ if (!$email || !strpos($email, '@') || !$message || $trollissimo) {
 }
 
 $subject = '=?UTF-8?B?'.$subject.'?=';
-$message_all = "from: SoftwareMill Website <".$from.">\n-----------------------------\n";
+$message_all = "from: PandaPix Website <".$from.">\n-----------------------------\n";
 $message_all = "Reply-To: ".$name." <".$email.">\n-----------------------------\n";
 $message_all .= wordwrap($message, 70);
 $headers = "MIME-Version: 1.0\r\nContent-type: text/plain; charset=UTF-8\r\n";
