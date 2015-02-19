@@ -25,17 +25,17 @@ navigation:
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.seo.title }}{% endif %}</title>
     <meta name="description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.seo.description | escape }}{% endif %}"/>
     <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.seo.keywords }}{% endif %}"/>
-    <meta name="Copyright" content="Copyright (c) 2013, SoftwareMill Sp. z o.o. All Rights Reserved.">
+    <meta name="Copyright" content="Copyright (c) 2015, Panda Pix All Rights Reserved.">
     <meta name="author" content="balsamstudio.com"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     {% capture url %}{{ page.url | remove: '/' | remove: 'index.html' }}/{% endcapture %}
     {% if url == '/' %}{% capture url %}{% endcapture %}{% endif %}
-    <link rel="canonical" href="https://softwaremill.com/{{ url }}"/>
-    <link rel="alternate" type="application/rss+xml" title="SoftwareMill blog" href="/atom.xml"/>
+    <link rel="canonical" href="https://pandapixky.com/{{ url }}"/>
+    <link rel="alternate" type="application/rss+xml" title="PandaPixl log" href="/atom.xml"/>
 
     <meta property='og:title' content='{% if page.title %}{{ page.title | escape }}{% else %}{{ site.seo.title | escape }}{% endif %}'/>
     <meta property='og:description' content='{% if page.description %}{{ page.description | escape }}{% else %}{{ site.seo.description | escape }}{% endif %}'/>
-    <meta property='og:url' content='https://softwaremill.com/{{ url }}'/>
+    <meta property='og:url' content='https://pandapixky.com/{{ url }}'/>
     <meta property='og:site_name' content='{{ site.seo.title | escape }}'/>
     <meta property='og:locale' content='en_US'/>
     <meta property='og:type' content='article'/>
@@ -43,6 +43,7 @@ navigation:
     <link rel='stylesheet' id='codecolorer-css' href='/res/codecolorer.css' type='text/css' media='screen'/>
     <link rel="shortcut icon" href="/res/favicon.png"/>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'/>
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/res/reset.css"/>
     <link rel="stylesheet" href="/res/style.css"/>
     <script src="/res/modernizr-2.6.min.js"></script>
@@ -65,7 +66,7 @@ navigation:
     {% if page.js %}<script src="{{ page.js }}"></script>{% endif %}
 
     <header class="wrapper clearfix">
-      <a href="/"><h1>SoftwareMill</h1></a>
+      <a href="/"><h1>PandaPix</h1></a>
       {% include pages.html %}
     </header>
 
@@ -113,16 +114,13 @@ navigation:
             <input type="submit" class="submit" value="Send"/>
             <p>
               Or send us an email:
-              <a href="mailto:hello@softwaremill.com" onclick="ga('send', 'pageview', '/cele/mail-hello');">hello@softwaremill.com</a>
+              <a href="mailto:pandapixky@gmail.com" onclick="ga('send', 'pageview', '/cele/mail-hello');">pandapixky@gmail.com</a>
             </p>
           </form>
         </div>
 
         <div class="feed-the-hungry-bot">
-          <p>SoftwareMill delivers custom software solutions: web applications, back-end systems and enterprise
-            solutions. We specialize in Java, Scala and Cloud technologies with particular interest in JBoss, Amazon Web
-            Services and Big Data projects. We develop software solutions with care and strong belief in the agile
-            approach.
+          <p>Our goal is to enable you convert your precious memories into high quality digital files at an economical cost.  We are local - you don't need to send your home videos, prints, slides, or negatives to California via Walmart, SAMs, Walgreens, RiteAid, CVS, or Meijers. We use innovative digitizing technology to efficiently create low-cost, high-quality digital files that you can enjoy on your computers, iPads/tablets, or smartphones for years to come.
           </p>
         </div>
 
@@ -132,17 +130,10 @@ navigation:
 
     <footer>
       <div class="wrapper clearfix">
-        <div class="copy">&copy; 2013 SoftwareMill. All rights reserved.</div>
-        <a href="http://jbison.com" target="_blank" class="monitored">Monitored by </a>
+        <div class="copy">&copy; 2015 PandaPix. All rights reserved.</div>
         {% include pages.html %}
       </div>
     </footer>
-
-    <div class="cookies">
-      <div class="wrapper">This page uses cookies for better performance of the site. You can disable cookies in your
-        browser settings.
-        <a href="#" class="cookies-agree">OK</a></div>
-    </div>
     <script>
         $('.presentation-abstract').readmore({
             speed: 75,

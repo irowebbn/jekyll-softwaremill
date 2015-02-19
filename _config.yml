@@ -1,9 +1,9 @@
-name: SoftwareMill
+name: PandaPix
 markdown: redcarpet
 pygments: true
-timezone: Europe/Warsaw
+timezone: EST
 permalink: :title/
 seo:
-  title: SoftwareMill - Java, Scala, Cloud
-  description: 'We develop custom software solutions: web applications, back-end systems and enterprise solutions. In short, we specialize in: Java, Scala and Cloud.'
-  keywords: scala, java, cloud, aws, big data
+  title: PandaPix
+  description: 'We take your photos, slides, negatives & home video tapes & convert them to their corresponding digital format to preserve your memories for the digital age.'
+  keywords: negatives, photos, conversion, digital
