@@ -3,6 +3,7 @@ markdown: redcarpet
 pygments: true
 timezone: EST
 permalink: :title/
+baseurl: /jekyll-softwaremill
 seo:
   title: PandaPix
   description: 'We take your photos, slides, negatives & home video tapes & convert them to their corresponding digital format to preserve your memories for the digital age.'
