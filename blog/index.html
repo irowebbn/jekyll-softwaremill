@@ -18,3 +18,64 @@ keywords: blog, java, scala, big data, aws, jboss
     </div>
   </nav>
 </div>
+
+<article id="blog">
+  <section id="company-news">
+    <div class="block border">
+      <div class="wrapper clearfix">
+        <h6>Company News</h6>
+        <div class="blog-list-container" id="blogs-slider">
+          {% for post in site.categories.company %}
+          {% include blogs.html color='blue' %}
+          {% endfor %}
+        </div>
+
+        <nav id="blogs-slider-nav" class="clearfix">
+          <a class="prev"></a>
+          <a class="next"></a>
+        </nav>
+        <a href="#" class="see-more blog-list-link">See all</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="team-posts">
+    <div class="block border">
+      <div class="wrapper clearfix">
+        <h6>Our team's posts</h6>
+        <div class="blog-list-container" id="members-blogs-slider">
+          {% include generated/team-posts-blog.html %}
+        </div>
+
+        <nav id="members-blogs-slider-nav" class="clearfix">
+          <a class="prev"></a>
+          <a class="next"></a>
+        </nav>
+
+        <a href="#" class="see-more blog-list-link">See all</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="presentations">
+    <div class="block border">
+      <div class="wrapper clearfix">
+        <h6>Our presentations</h6>
+        <div class="blog-list-container" id="members-presentations-slider">
+          {% for presentation in site.categories.presentations %}
+          {% include presentations.html color='violet' %}
+          {% endfor %}
+        </div>
+
+        <nav id="members-presentations-slider-nav" class="clearfix">
+          <a class="prev"></a>
+          <a class="next"></a>
+        </nav>
+
+        <a href="#" class="see-more blog-list-link">See all</a>
+      </div>
+    </div>
+  </section>
+</article>

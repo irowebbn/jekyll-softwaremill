@@ -359,13 +359,13 @@ text-align: center;
   .project.green .see-more {background: #bccf02; border-color: #bccf02; color: #fff;}
   .project.green .see-more:hover {color: #000; background: #fff;}
 
-  .project.vocado {padding-bottom: 0px;}
-  .project.vocado h1 {color: #fdc700;}
-  .project.vocado .see-more {background: #fdc700; border: 3px solid #fff; color: #fff; border-radius: 22px;}
-  .project.vocado .see-more:hover {color: #000; background: #fff;}
-  .project.vocado:after {content: ''; width: 100%; height: 190px; background: #fdc700; margin-top: -170px; position: absolute; z-index: -1;}
-  .project.vocado .text {width: 310px;}
-  .project.vocado figure {width: 650px; margin-top: 30px;}
+  .project.testimonial-1 {padding-bottom: 0px;}
+  .project.testimonial-1 h1 {color: #fdc700;}
+  .project.testimonial-1 .see-more {background: #fdc700; border: 3px solid #fff; color: #fff; border-radius: 22px;}
+  .project.testimonial-1 .see-more:hover {color: #000; background: #fff;}
+  .project.testimonial-1:after {content: ''; width: 100%; height: 190px; background: #fdc700; margin-top: -170px; position: absolute; z-index: -1;}
+  .project.testimonial-1 .text {width: 310px;}
+  .project.testimonial-1 figure {width: 650px; margin-top: 30px;}
   .project.attikis {border-bottom: 1px solid #ccc;}
   .project.attikis h1 {color: #c83300;}
   .project.attikis .see-more {background: #c83300; border-color: #c83300; color: #fff;}
@@ -1299,10 +1299,10 @@ input.submit:hover {background: #000; color: #fff; border-color: #000;}
   .project .see-more, .project.intelli .see-more {margin-top: 0px; margin-bottom: 20px;}
 
   .project.vbroker .text p:last-of-type {color: black;}
-  .project.vbroker, .project.sms-portal, .project.intelli, .project.vocado  {border-bottom: 1px solid #e5e5e5;}
-  .project.vocado:after, .project.intelli:after, .project.sms-portal:after, .project.vbroker:after {display: none;}
-  .project.vocado .text {width: 300px;}
-  .project.vocado figure {width: 300px;}
+  .project.vbroker, .project.sms-portal, .project.intelli, .project.testimonial-1  {border-bottom: 1px solid #e5e5e5;}
+  .project.testimonial-1:after, .project.intelli:after, .project.sms-portal:after, .project.vbroker:after {display: none;}
+  .project.testimonial-1 .text {width: 300px;}
+  .project.testimonial-1 figure {width: 300px;}
   .project.jbison figure, .project.codebrag figure {margin: 0px !important;}
   .project.codebrag figure img, .project.jbison figure img, .project.blue figure img, .project.green figure img {margin-top: 20px;}
 
@@ -1591,9 +1591,9 @@ input.submit:hover {background: #000; color: #fff; border-color: #000;}
   .project.sms-portal:after{
     margin-top: -100px;
   }
-  .project.vocado { padding-bottom: 120px; }
-  .project.vocado:after { margin-top: auto; bottom: 36px; height: 170px; }
-  .project.vocado figure { width: 380px; margin-left: -40px !important; position: relative; bottom: -90px; }
+  .project.testimonial-1 { padding-bottom: 120px; }
+  .project.testimonial-1:after { margin-top: auto; bottom: 36px; height: 170px; }
+  .project.testimonial-1 figure { width: 380px; margin-left: -40px !important; position: relative; bottom: -90px; }
   .project.intelli { padding-bottom: 150px; }
   .project.intelli:after { margin-top: auto; bottom: 70px; height: 170px; }
   .project.intelli figure { width: 380px; margin-left: -40px !important; position: relative; bottom: -110px; }
