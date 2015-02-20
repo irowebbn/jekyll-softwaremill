@@ -13,7 +13,7 @@ body { color: #000; font-size: 12px; line-height: 18px; font-family: 'Open Sans'
 .wrapper { width: 980px; margin: 0 auto;}
 
   header {height: 100px;}
-  header h1 {float: left; width: 320px; height: 70px; background: url(../img/logo.jpg); text-indent: -20000px; margin-top: 32px;}
+  header h1 {float: left; width: 320px; height: 70px; background: url(../img/logo.jpg); text-indent: -20000px; margin-top: 30px;}
   header ul {float: right;}
   header ul li {float: left; }
   header ul li a {display: block; padding: 32px 20px 33px; background: url(../img/menu-bg.jpg) repeat-x 0px 0px; color: #000; text-transform: uppercase; font-size: 11px; line-height: 35px;}
@@ -60,6 +60,24 @@ body { color: #000; font-size: 12px; line-height: 18px; font-family: 'Open Sans'
     #baner-home .top01 .blocks .empty-pink {background: #eb65a0; margin-left: 489px;}
     #baner-home .top01 .blocks .logo {background: #9b539c; height: 163px; margin-left: 489px; width: auto;}
     #baner-home .top01 .blocks .logo.active {margin-left: 163px; }
+    #banner-home .top01 .blocks .square {
+        text-align: center;
+    }
+   #baner-home > div.top01.clearfix.baner > div.blocks > div.row.grey.clearfix > div.markup.clearfix.clickable.appear > figure > i{
+      margin-top:30%;
+    }
+#baner-home > div.top01.clearfix.baner > div.blocks > div:nth-child(2) > div > figure > i{
+    margin-top: 30%;
+}
+#baner-home > div.top01.clearfix.baner > div.blocks > div:nth-child(1) > div > figure > i {
+    text-align: center;
+    margin-top: 75%;
+    margin-left: 75%;
+}
+#baner-home > div.top01.clearfix.baner > div.blocks > div:nth-child(1) > div > figure {
+text-align: center;
+}
+/*
     #baner-home .top01 .blocks .logo figure {background: url(../img/baner01logo.png) no-repeat center center; }
     #baner-home .top01 .blocks .logo figure:after {display: block; opacity: 0; content: ''; background: url(../img/baner01logo-white.png) no-repeat center center; width: 163px; height: 163px;
       -webkit-transition: all 300ms ease-in;
@@ -69,16 +87,19 @@ body { color: #000; font-size: 12px; line-height: 18px; font-family: 'Open Sans'
       transition: all 300ms ease-in;}
     #baner-home .top01 .blocks .logo figure:hover:after,
     #baner-home .top01 .blocks .logo figure.highlight:after {opacity: 1;}
+*/
     #baner-home .top01 .blocks .logo .desc {border-left: 1px solid #b172b2;}
     #baner-home .top01 .blocks .markup {float: left; background: #bccf02; height: 163px; margin-left: 326px; width: auto;}
     #baner-home .top01 .blocks .markup.active {margin-left: 0px; }
-    #baner-home .top01 .blocks .markup figure {background: url(../img/baner01markup.png) no-repeat center center;}
+/*    #baner-home .top01 .blocks .markup figure {background: url(../img/baner01markup.png) no-repeat center center;}*/
+/*
     #baner-home .top01 .blocks .markup figure:after {display: block; opacity: 0; content: ''; background: url(../img/baner01markup-white.png) no-repeat center center; width: 163px; height: 163px;
       -webkit-transition: all 300ms ease-in;
       -moz-transition: all 300ms ease-in;
       -o-transition: all 300ms ease-in;
       -ms-transition: all 300ms ease-in;
       transition: all 300ms ease-in;}
+*/
     #baner-home .top01 .blocks .markup figure:hover:after,
     #baner-home .top01 .blocks .markup figure.highlight:after {opacity: 1;}
     #baner-home .top01 .blocks .markup .desc {border-left: 1px solid #ccdb05;}
@@ -288,10 +309,11 @@ body { color: #000; font-size: 12px; line-height: 18px; font-family: 'Open Sans'
     .white-paper .partner img {-webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); filter: grayscale(100%);}
     .white-paper .partner:hover img {-webkit-filter: grayscale(0%); -moz-filter: grayscale(0%); filter: grayscale(0%);}
 
-    .conferences {float: right; width: 440px; height: 310px; padding: 20px; border: 3px solid #1f7397; background: url(../img/scalar-bg-index.jpg) top center no-repeat;}
-    .conferences p {color: #ffffff; font-size: 16px; line-height: 22px; margin: 160px 0 0 0; font-weight: 300; -webkit-font-smoothing: antialiased;}
+    .conferences {float: right; width: 440px; height: 310px; padding: 20px; border: 3px solid #1f7397; background: url(../img/conference-back.jpg) top center ;}
+    .conferences p {color: #000; font-size: 16px; line-height: 22px; margin: 10px 0 0 0; font-weight: 300; -webkit-font-smoothing: antialiased;}
     .conferences .see-more {border-color: #1f7397; margin-top: 20px;}
     .conferences .see-more:hover {background: #1f7397; color: #000;}
+/*    .conferences i {text-align: center};*/
 
     .news {width: 450px; float: left; margin-bottom: 20px;}
     .news:nth-child(2n) {float: right; width: 458px; padding: 0 23px 0 0;}
@@ -1259,7 +1281,7 @@ input.submit:hover {background: #000; color: #fff; border-color: #000;}
   .twitter-slider { z-index: 10; }
   .twitter-nav {width: 250px; z-index: 100000; margin: -55px 0px 0px;}
   .conferences {width: 274px; height: 220px; float: none; background-size: 300px 172px; padding: 10px; background-position: center 10px;}
-  .conferences p {margin-top: 95px; font-size: 12px; line-height: 16px;}
+  .conferences p {margin-top: 10px; font-size: 12px; line-height: 16px;}
   .conferences .see-more {margin-top: 25px;}
 
   .white-paper {width: 300px; float: none; margin-bottom: 20px;}
@@ -1510,7 +1532,7 @@ input.submit:hover {background: #000; color: #fff; border-color: #000;}
   .white-paper figure img { width: auto; max-width: none; max-height: 110px; }
   .white-paper p { font-size: 12px; line-height: 16px; margin-top: -19px; }
   .conferences { width: 320px; height: 280px; background-size: 100%; background-position: center 15px;}
-  .conferences p { font-size: 12px; line-height: 16px; margin: 125px 0 0 0; }
+  .conferences p { font-size: 12px; line-height: 16px; margin: 10px 0 0 0; }
   .conferences .see-more {margin-top: 55px;}
 
   .news { width: 336px; }
